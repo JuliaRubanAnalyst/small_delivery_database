@@ -1,7 +1,7 @@
 CREATE TABLE orders
 (order_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
 customer_id INT NOT NULL,
-date_get TIMESTAMP NOT NULL,  # the time when orders are gotten from customers
+date_get TIMESTAMP NOT NULL,
 FOREIGN KEY (customer_id) REFERENCES customers (customer_id));
 
 INSERT INTO orders(customer_id, date_get) VALUES
