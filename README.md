@@ -32,10 +32,44 @@ Below are examples demonstrating the structure and typical content of the databa
 
 ### Orders Table Example
 
-```plaintext
 | order_id | customer_id | date_get            |
 |----------|-------------|---------------------|
 | 1        | 1           | 2024-01-01 12:00:00 |
 | 2        | 2           | 2024-01-01 12:05:00 |
 | ...      | ...         | ...                 |
 
+### Courier Info Table Example
+
+| first_name | last_name | phone_number      | delivery_type |
+|------------|-----------|-------------------|---------------|
+| John       | Rython    | +1 408 655 0954   | foot          |
+| Kate       | Looran    | +1 408 743 0146   | car           |
+| Bob        | Kolaris   | +1 408 107 7798   | car           |
+| Michael    | Frontal   | +1 408 566 5516   | car           |
+| ...        | ...       
+
+### Customers Info Table Example
+
+| first_name | last_name  | phone_number      | district | street        | house | apartment |
+|------------|------------|-------------------|----------|---------------|-------|-----------|
+| Penny      | Smith      | +1 416 572 3771   | South    | First Avenue  | 1     | 10        |
+| Randy      | Brown      | +1 416 568 8452   | West     | Spring St     | 2     | 35        |
+| Oliver     | Thompson   | +1 416 782 5648   | East     | Five Avenue   | 77    | 14        |
+| James      | Twist      | +1 416 752 1224   | South    | Corn St       | 24    | 89        |
+| ...        | ...        | ...               | ...      | ...           |...    | ...       |
+
+### Products Table Example
+
+| product_id | menu_name           | price |
+|------------|---------------------|-------|
+| 1          | GOJIRA ROLL         | 12.6  |
+| 2          | VIVA LAS VEGAS ROLL | 15.7  |
+| ...        | ...                 | ...   |
+
+## Example Query Results
+
+### Amount of orders
+
+| orders_per_year |
+|-----------------|
+| 4213            |
