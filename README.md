@@ -73,3 +73,62 @@ Below are examples demonstrating the structure and typical content of the databa
 | orders_per_year |
 |-----------------|
 | 4213            |
+
+## Year Statistics Table Example
+
+| month_name | amount_of_orders |
+|------------|------------------|
+| December   | 429              |
+| May        | 405              |
+| June       | 401              |
+| October    | 385              |
+| November   | 381              |
+| September  | 377              |
+| ...        | ...              |
+
+## Query for Month with Maximum Orders
+
+The following result shows the month with the highest number of orders:
+
+| month_name | amount_of_orders |
+|------------|------------------|
+| December   | 429              |
+
+## Query for Districts Ordered by Number of Customers
+
+The following list shows the popularity of districts by number of clients
+
+| district |
+|----------|
+| South    |
+| West     |
+| North    |
+| East     |
+
+## Customers in the South District
+
+The following table lists the details of customers who are located in the 'South' district:
+
+| customer_id | first_name | last_name | phone_number      | district | street       | house | apartment |
+|-------------|------------|-----------|-------------------|----------|--------------|-------|-----------|
+| 1           | Penny      | Smith     | +1 416 572 3771   | South    | First Avenue | 1     | 10        |
+| 4           | James      | Twist     | +1 416 752 1224   | South    | Corn St      | 24    | 89        |
+| 5           | Hellen     | Bellora   | +1 416 555 4568   | South    | First Avenue | 11    | 85        |
+| 10          | Erica      | Visputchu | +1 416 765 8582   | South    | First Avenue | 62    | 44        |
+| 11          | Henry      | Smith     | +1 416 657 5528   | South    | Brown St     | 15    | 56        |
+| 12          | Oscar      | Rild      | +1 416 624 3643   | South    | First Avenue | 5     | 13        |
+| 15          | Ada        | Watson    | +1 416 114 7812   | South    | Elma St      | 18    | 9         |
+
+## Combined Customer and Employee Information
+
+The following table shows a unified list of individuals categorized as either 'Customer' or 'Employee' along with their contact information:
+
+| category_name | first_name | last_name | phone_number     |
+|---------------|------------|-----------|------------------|
+| Customer      | Penny      | Smith     | +1 416 572 3771  |
+| Customer      | Randy      | Brown     | +1 416 568 8452  |
+| Customer      | Oliver     | Thompson  | +1 416 782 5648  |
+| Customer      | James      | Twist     | +1 416 752 1224  |
+| Customer      | Hellen     | Bellora   | +1 416 555 4568  |
+| Customer      | Kate       | Evans     | +1 416 321 3211  |
+| Customer      | Jennifer   | Radriges  | +1 416 321 1232  |
