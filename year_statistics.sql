@@ -1,9 +1,9 @@
 CREATE TABLE year_statistics
 (id_month INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
 month_name VARCHAR(10) UNIQUE NOT NULL,
-amount_of_orders INT NOT NULL,  # total amount of orders per month
-couriers_shifts_per_month INT NOT NULL,  # number of the shifts in total for all the courier per month
-average_check FLOAT NOT NULL); # average check for 1 customer in the current month
+amount_of_orders INT NOT NULL, 
+couriers_shifts_per_month INT NOT NULL,  
+average_check FLOAT NOT NULL);
 
 INSERT INTO year_statistics VALUES
 (NULL,'January', 350, 120, 24.6),
