@@ -17,3 +17,8 @@ WHERE district IN ('South');
 SELECT 'Customer' AS category_name, first_name, last_name, phone_number FROM customers_info
 UNION
 SELECT 'Employee' AS category_name, first_name, last_name, phone_number FROM courier_info;
+
+SELECT customers_info.first_name, customers_info.last_name,
+customers_info.phone_number, orders.order_id
+FROM customers_info
+LEFT JOIN orders ON customers_info.customer_id = orders.customer_id;

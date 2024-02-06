@@ -132,3 +132,18 @@ The following table shows a unified list of individuals categorized as either 'C
 | Customer      | Hellen     | Bellora   | +1 416 555 4568  |
 | Customer      | Kate       | Evans     | +1 416 321 3211  |
 | Customer      | Jennifer   | Radriges  | +1 416 321 1232  |
+
+## Customer Orders
+
+The following table shows customer details along with their associated order IDs:
+
+| first_name | last_name | phone_number     | order_id |
+|------------|-----------|------------------|----------|
+| Penny      | Smith     | +1 416 572 3771  | 2        |
+| Randy      | Brown     | +1 416 568 8452  | 3        |
+| Oliver     | Thompson  | +1 416 782 5648  | 4        |
+| James      | Twist     | +1 416 752 1224  | 5        |
+| Hellen     | Bellora   | +1 416 555 4568  | 6        |
+| Kate       | Evans     | +1 416 321 3211  | 7        |
+| Jennifer   | Radriges  | +1 416 321 1232  | 8        |
+| ...        | ...       | ...              | ...      |
